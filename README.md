@@ -17,3 +17,16 @@ The main goal of this assignment is to advance your comprehension of audio data 
  
 
 P.S.: Even if you fail to finalize the assignment, write down steps you took, issues you encountered and how you tried to solve them!
+
+## Allan's experiment
+
+The notebook `Assignment3_Audio_Classification.ipynb` follows the course feature-extraction and classic-ML workflow, compares raw, standard-scaled, and min-max-scaled features, and evaluates models on a RAVDESS holdout and Actor 25 recordings.
+
+### Run locally
+
+1. Install Python packages: `librosa`, `soundfile`, `numpy`, `pandas`, `matplotlib`, and `scikit-learn`.
+2. Put the RAVDESS speech files in `Audio Data/Actor_01` through `Audio Data/Actor_24`.
+3. Put the Actor 25 WAV files in `My Voice/Actor_25`.
+4. Open and run `Assignment3_Audio_Classification.ipynb` from top to bottom.
+
+The audio folders are intentionally not committed: RAVDESS is a separately distributed dataset, and Actor 25 contains personal voice recordings.

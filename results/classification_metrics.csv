@@ -1,0 +1,55 @@
+Feature version,Classifier,Test set,Accuracy,Macro-F1
+Unscaled,kNN,RAVDESS test,0.458,0.427
+Unscaled,kNN,Actor 25,0.2,0.099
+Unscaled,SVM linear,RAVDESS test,0.49,0.49
+Unscaled,SVM linear,Actor 25,0.133,0.073
+Unscaled,SVM RBF,RAVDESS test,0.306,0.2
+Unscaled,SVM RBF,Actor 25,0.167,0.068
+Unscaled,Decision Tree,RAVDESS test,0.389,0.383
+Unscaled,Decision Tree,Actor 25,0.083,0.058
+Unscaled,Random Forest,RAVDESS test,0.545,0.52
+Unscaled,Random Forest,Actor 25,0.183,0.113
+Unscaled,AdaBoost,RAVDESS test,0.361,0.316
+Unscaled,AdaBoost,Actor 25,0.15,0.097
+Unscaled,Gaussian NB,RAVDESS test,0.319,0.278
+Unscaled,Gaussian NB,Actor 25,0.133,0.029
+Unscaled,PCA + QDA,RAVDESS test,0.528,0.501
+Unscaled,PCA + QDA,Actor 25,0.133,0.029
+Unscaled,Logistic Regression,RAVDESS test,0.472,0.466
+Unscaled,Logistic Regression,Actor 25,0.267,0.172
+Standard,kNN,RAVDESS test,0.556,0.527
+Standard,kNN,Actor 25,0.217,0.129
+Standard,SVM linear,RAVDESS test,0.531,0.526
+Standard,SVM linear,Actor 25,0.1,0.024
+Standard,SVM RBF,RAVDESS test,0.507,0.451
+Standard,SVM RBF,Actor 25,0.15,0.09
+Standard,Decision Tree,RAVDESS test,0.378,0.372
+Standard,Decision Tree,Actor 25,0.083,0.083
+Standard,Random Forest,RAVDESS test,0.531,0.5
+Standard,Random Forest,Actor 25,0.183,0.11
+Standard,AdaBoost,RAVDESS test,0.372,0.309
+Standard,AdaBoost,Actor 25,0.117,0.068
+Standard,Gaussian NB,RAVDESS test,0.302,0.273
+Standard,Gaussian NB,Actor 25,0.083,0.056
+Standard,PCA + QDA,RAVDESS test,0.372,0.358
+Standard,PCA + QDA,Actor 25,0.167,0.08
+Standard,Logistic Regression,RAVDESS test,0.49,0.472
+Standard,Logistic Regression,Actor 25,0.133,0.029
+MinMax,kNN,RAVDESS test,0.566,0.545
+MinMax,kNN,Actor 25,0.217,0.135
+MinMax,SVM linear,RAVDESS test,0.503,0.464
+MinMax,SVM linear,Actor 25,0.133,0.029
+MinMax,SVM RBF,RAVDESS test,0.434,0.375
+MinMax,SVM RBF,Actor 25,0.15,0.058
+MinMax,Decision Tree,RAVDESS test,0.375,0.373
+MinMax,Decision Tree,Actor 25,0.133,0.134
+MinMax,Random Forest,RAVDESS test,0.535,0.502
+MinMax,Random Forest,Actor 25,0.167,0.066
+MinMax,AdaBoost,RAVDESS test,0.372,0.309
+MinMax,AdaBoost,Actor 25,0.117,0.068
+MinMax,Gaussian NB,RAVDESS test,0.302,0.273
+MinMax,Gaussian NB,Actor 25,0.083,0.056
+MinMax,PCA + QDA,RAVDESS test,0.42,0.362
+MinMax,PCA + QDA,Actor 25,0.15,0.058
+MinMax,Logistic Regression,RAVDESS test,0.493,0.448
+MinMax,Logistic Regression,Actor 25,0.133,0.029

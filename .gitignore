@@ -1,0 +1,10 @@
+# Keep the licensed corpus and personal voice recordings out of the public fork.
+Audio Data
+My Voice
+featuresRavdess.csv
+emotionsRavdess.csv
+featuresActor25.csv
+emotionsActor25.csv
+*.wav
+__pycache__/
+.ipynb_checkpoints/
